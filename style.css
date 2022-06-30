@@ -1,24 +1,45 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*Fontes*/
 h1{
-    margin: 20px;
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 20px;
+    background-color: orange;
 }
 p{
-    margin: 10px;
+    margin: 0 0 20px 0;
+    
 }
+body{
+    background-image: linear-gradient(#BA181B, #A4161A, #660708);
+}
+
 
 
 /*sections*/
-.botoes{
-    margin: 10px ;
-    
+    /*botões*/
+    .botoes{
+        margin: 0 50px 0 50px;
+        padding: 12px;
+        background-color: #D3D3D3;
+    }
+    .botoes button{
+        margin: 0 10px 0 10px;
+        padding: 0 30px 0 30px;
+        font-size: 25px;
+    }
 
-}
-.botoes button{
-    margin: 2px;
-    font-size: 20px;
-}
+
+    /*Parte principal*/
+    .parte-principal{
+        padding: 0 50px 0 50px;
+       
+    }
+    .parte-principal .historia{
+        background-color: white;
+        padding: 20px;
+    }
