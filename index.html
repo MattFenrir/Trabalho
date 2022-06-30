@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <title>SpyXFamily</title>
 </head>
-<body>
+<body onload="inicio()">
     <h1>SpyxFamily</h1>
     <section class="botoes">
-        <button>História</button>
-        <button>Personagens</button>
-        <button>WISE</button>
-        <button>Garden</button>
+        <button autofocus onclick="historia()">História</button>
+        <button onclick="personagens()">Personagens</button>
+        <button onclick="wise()">WISE</button>
+        <button onclick="garden()">Garden</button>
     </section>
 
     <main class="parte-principal">
@@ -99,12 +99,12 @@
             </div>
         </section>
         <section class="espioes-assassinos">
-            <div class="espioes">
+            <div id="espioes">
                 <img src="Assets-img/WISE.png" alt="">
                 <p>Westalian Intelligence é uma organização Westalian dedicada a manter a paz entre Ostania e Westalis . Sua principal divisão é a Divisão Focada no Leste dos Serviços de Inteligência Westalian WISE (西国情報局対東課ウェスタリスジョーホーキョクタイヒガシカ, Wesutarisu Jōhōkyoku Taihigashika ? ) para o qual "Crepúsculo" funciona.</p>
                 <p>Pouco se sabe sobre a organização, além de que seu principal objetivo é manter a paz entre Westalis e Ostania, seja através do uso de espionagem, sabotagem, escutas telefônicas e possivelmente assassinatos para manter a paz entre as nações, eliminando qualquer coisa que possa ameaçá-la. Conforme observado de sua sede, eles parecem ter ampla vigilância de vários lugares.</p>
             </div>
-            <div class="assassinos">
+            <div id="assassinos">
                 <img src="Assets-img/Garden.png" alt="">
                 <p>Garden (ガーデン, Gāden ? ) é um grupo de assassinos que opera em Ostania.</p>
                 <p>Acredita-se que muitas histórias deles sejam lendas urbanas. Como uma organização paramilitar não oficial, eles expurgam os traidores do país sob ordens do governo paralelo. Diz-se que um de seus soldados é capaz de acabar com uma tropa militar inteira.</p>
