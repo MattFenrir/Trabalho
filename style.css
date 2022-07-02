@@ -12,10 +12,19 @@ h1{
 }
 p{
     margin: 0 0 20px 0;
-    
+    text-align: justify;
 }
 body{
     background-image: linear-gradient(#BA181B, #A4161A, #660708);
+}
+img{
+   display: block;
+   margin: auto;
+   padding: auto;
+}
+.parte-principal .personagens img:hover{
+    box-shadow: 5px, 5px ,15px, white;
+    
 }
 
 
@@ -34,32 +43,50 @@ body{
         cursor: pointer;
         border-radius: 20px;
     }
+    .botoes button:hover{
+        color: white;
+        background-color: black;
+    }
+    .botoes button:focus{
+        color: white;
+        background-color: black;
+    }
 
 
 /*Parte principal*/
     .parte-principal{
-        padding: 0 50px 0 50px;
-       
+        margin: 0 50px 0 50px;;
+        background-color: rgb(14, 25, 26);
     }
     .parte-principal .historia{
-        background-color: white;
+        color: antiquewhite;
         padding: 20px;
+        text-align: left;
     }
 
+    /*Substituível*/
     .synopse-loid{
-        background-color: white;
-        padding: 20px;
+        background-color: rgb(14, 25, 26);
+        color: antiquewhite;
+    }
+
+    .synopse-yor{
+        background-color: rgb(14, 25, 26);
+        color: antiquewhite;
     }
 
     .synopse-anya{
-        background-color: white;
-        padding: 20px;
+        background-color: rgb(14, 25, 26);
+        color: antiquewhite;
     }
+
+
 
 
 /*Personagens*/
     .personagens{
-        background-color: white;
+        background-color: rgb(14, 25, 26);
+        color: antiquewhite;
         padding: 20px;
     }
     .personagens .loid img{
