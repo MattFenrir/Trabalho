@@ -6,6 +6,7 @@ function inicio(){
     document.querySelectorAll('main section')[4].style.display = "block"
     document.querySelectorAll('main section')[5].style.display = "none"
     document.querySelectorAll('main section')[6].style.display = "none"
+    document.getElementById('img').style.display = "block"
 }
 
 function historia(){
@@ -16,6 +17,7 @@ function historia(){
     document.querySelectorAll('main section')[4].style.display = "block"
     document.querySelectorAll('main section')[5].style.display = "none"
     document.querySelectorAll('main section')[6].style.display = "none"
+    document.getElementById('img').style.display = "block"
 }
 
 function personagens(){
@@ -26,6 +28,7 @@ function personagens(){
     document.querySelectorAll('main section')[4].style.display = "none"
     document.querySelectorAll('main section')[5].style.display = "block"
     document.querySelectorAll('main section')[6].style.display = "none"
+    document.getElementById('img').style.display = "none"
 }
 
 function wise(){
@@ -38,6 +41,7 @@ function wise(){
     document.querySelectorAll('main section')[6].style.display = "block"
     document.getElementById('espioes').style.display = "block"
     document.getElementById('assassinos').style.display = "none"
+    document.getElementById('img').style.display = "none"
 }
 
 function garden(){
@@ -50,4 +54,5 @@ function garden(){
     document.querySelectorAll('main section')[6].style.display = "block"
     document.getElementById('espioes').style.display = "none"
     document.getElementById('assassinos').style.display = "block"
+    document.getElementById('img').style.display = "none"
 }
