@@ -5,21 +5,32 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 /*Fontes*/
 body{
     background-image: linear-gradient(#BA181B, #A4161A, #660708);
     width: 100%;
 }
-h1{
-    margin: 0 0 0 0 ;
-    padding: 0 0 0 20px;
+.head{
+    margin: 0 4.1% 0 4.1% ;
+    padding: 10px;
     background-color: orange;
+    display: flex;
+    justify-content: space-between;
+
+}
+.head .material-icons{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.head .material-icons:hover{
+    width: 3%;
+    height: 3vh;
 }
 p{
     margin: 0 0 20px 0;
     text-align: justify;
 }
-
 .parte-principal .personagens img:hover{
     box-shadow: 5px, 5px ,15px, white;
 }
@@ -28,7 +39,6 @@ a{
     color: black;
     background-color: white;
     border: 2px solid black;
-    border-radius: 10px;
 }
 a:hover{
     color: white;
@@ -36,13 +46,14 @@ a:hover{
 }
 
 
-
 /*sections*/
     /*botões*/
     .botoes{
+        display: flex;       
         margin: 0 50px 0 50px;
         padding: 12px;
         background-color: rgb(159, 189,187);
+        justify-content: space-evenly;
     }
     .botoes button{
         margin: 0 10px 0 10px;
@@ -70,7 +81,7 @@ a:hover{
         display: block;
         margin: auto;
         padding: 10px;
-     }
+    }
     .parte-principal .historia{
         color: antiquewhite;
         padding: 20px;
@@ -94,7 +105,6 @@ a:hover{
     }
 
 
-
 /*Personagens*/
     .personagens{
         background-color: rgb(14, 25, 26);
@@ -112,7 +122,6 @@ a:hover{
         color: antiquewhite;
         padding: 20px;
     }
-
 
 
 /*Imagens abaixo do Main*/
@@ -149,15 +158,19 @@ a:hover{
     }
     
 
-
 /*Footer*/
-footer{
-    width: 100%;
-    background-color: rgb(159, 189,187);
-    bottom: 0px;
-    text-align: center;
-    position: fixed;  
-    
-}
+    footer{
+        width: 100%;
+        background-color: rgb(159, 189,187);
+        bottom: 0px;
+        text-align: center;
+        position: fixed;
+    }
+    footer a{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
 
    
+    /*Midia celular*/
