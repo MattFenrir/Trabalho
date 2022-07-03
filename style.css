@@ -1,10 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*Fontes*/
+body{
+    background-image: linear-gradient(#BA181B, #A4161A, #660708);
+    width: 100%;
+}
 h1{
     margin: 0 0 0 0 ;
     padding: 0 0 0 20px;
@@ -14,17 +19,20 @@ p{
     margin: 0 0 20px 0;
     text-align: justify;
 }
-body{
-    background-image: linear-gradient(#BA181B, #A4161A, #660708);
-}
-img{
-   display: block;
-   margin: auto;
-   padding: auto;
-}
+
 .parte-principal .personagens img:hover{
     box-shadow: 5px, 5px ,15px, white;
-    
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a:hover{
+    color: white;
+    background-color: black;
 }
 
 
@@ -34,7 +42,7 @@ img{
     .botoes{
         margin: 0 50px 0 50px;
         padding: 12px;
-        background-color: #D3D3D3;
+        background-color: rgb(159, 189,187);
     }
     .botoes button{
         margin: 0 10px 0 10px;
@@ -55,9 +63,14 @@ img{
 
 /*Parte principal*/
     .parte-principal{
-        margin: 0 50px 0 50px;;
+        margin: 0 50px;  
         background-color: rgb(14, 25, 26);
     }
+    main img{
+        display: block;
+        margin: auto;
+        padding: 10px;
+     }
     .parte-principal .historia{
         color: antiquewhite;
         padding: 20px;
@@ -82,7 +95,6 @@ img{
 
 
 
-
 /*Personagens*/
     .personagens{
         background-color: rgb(14, 25, 26);
@@ -96,7 +108,56 @@ img{
 
 /*Espiões-Assassinos*/
     .espioes-assassinos{
-        background-color: white;
+        background-color: rgb(14, 25, 26);
+        color: antiquewhite;
         padding: 20px;
     }
+
+
+
+/*Imagens abaixo do Main*/
+    #img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    article .img-1{
+        display: flex;
+        gap: 10px;
+        width: 30%;
+        height: 100%;   
+        margin-left: 4.2%;
+    }
+    article .img-2{
+        display: flex;
+        gap: 10px;
+        width: 30%;
+        height: 100%;   
+        margin-left: 4.2%;        
+    }
+    article div img{
+       width: 100%;  
+       height: 50vh;
+    }
+    article div img:hover{
+       width: 110%;  
+       height: 55vh;
+       box-shadow: 5px 5px 10px black;
+    }
     
+
+
+/*Footer*/
+footer{
+    width: 100%;
+    background-color: rgb(159, 189,187);
+    bottom: 0px;
+    text-align: center;
+    position: fixed;  
+    
+}
+
+   
